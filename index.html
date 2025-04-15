@@ -71,12 +71,17 @@
         <p>Fu bro</p>
          <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGR4Z2hpOXFkeHF4NGxqZGp6bWswcTEzZTZyaDB5dTA1aHlnaGM0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yhVTV3hhdHJhm/giphy.gif">
         <div class="flash">PEACEEE</div>
+<audio id="annoyingSound" autoplay loop>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
     </div>
 
     <script>
         document.getElementById('secondBtn').onclick = function() {
             document.getElementById('firstMessage').style.display = 'none';
             document.getElementById('secondMessage').classList.remove('hidden');
+            document.getElementById('annoyingSound').play();
         };
     </script>
 
